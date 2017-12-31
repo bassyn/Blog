@@ -1,0 +1,59 @@
+ h1, h3{
+    text-align: center;
+}
+
+#blogs{
+    width: 300px;
+    list-style-type: none;
+}
+
+#commentLink, #blogs:hover{
+    color: blue;
+}
+
+#top{
+    border: 1px solid black;
+}
+
+.comments {
+    list-style-type: none;
+    border: 1px solid black;
+    width: 55%;
+    margin-left: 35px;
+    color: black;
+    text-align: left;
+}
+
+#bloglink:hover {
+    text-decoration: underline;
+}
+
+#bloglink {
+    color: blue;
+    text-align: right;
+}
+
+.posts::first-line, p::first-line { 
+    font-weight: bold;
+}
+
+#previous {
+    text-align: left;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    width: 40%;
+    padding-left: 15px;
+}
+
+#next {
+    text-align: right;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    padding-right: 15px;
+}
+
+input {
+    width: 700px;
+}
